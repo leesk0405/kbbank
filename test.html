@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 2px solid #000;
+            background-color: bisque;
+            padding: 15px;
+            position: relative;
+        }
+
+        .child{
+            position: absolute;
+            top: 150%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        box
+        <div class="child">
+            .child
+        </div>
+    </div>
+
+    <script>
+
+        document.querySelector(".box").addEventListener("click", function() {
+            alert("clicked!");
+        });
+
+        document.querySelector(".child").addEventListener("click", function(e) {
+            e.stopPropagation();//stop event capturing
+            alert("nothing!");
+        });
+
+        
+    </script>
+</body>
+</html>
