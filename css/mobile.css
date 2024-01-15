@@ -306,6 +306,9 @@ nav .sub.active{
 .row2 .row2_bg {
     display: none;
 }
+.row2 {
+    overflow: hidden;
+}
 .row2,.row3,.row4,.row5, 
 .row6 , .row7, .row8, .row9, .row10 {
     padding: 0 16px;
