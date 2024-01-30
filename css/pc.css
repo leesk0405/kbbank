@@ -261,6 +261,7 @@ header nav .gnb li:hover {
     width: 100%;
     background-color: #F7F9FC;
     position: unset;
+    border-radius: 180px 0 180px;
   }
   .row2,.row3,.row4, .row5, .row6, .row7 , .row8 
   ,.row9, .row10  {
@@ -289,13 +290,13 @@ header nav .gnb li:hover {
   .row2 span {
       display: block;
       width: 500px;
-      height: 5 00px;
+      height: 500px;
       background-color: #FFCC00;
-      border-radius: 0 30% 30% 30% ;
+      border-radius: 50% ;
       position: absolute;
       top:55%;
       left:35%;
-      opacity: .2;
+      opacity: .1;
       transform: translate(-50%,-50%);
       filter: blur(5px);
   }
@@ -423,9 +424,18 @@ header nav .gnb li:hover {
     font-weight: 300;
   }
   /* row3 */
+
+  .row4_bg1 {
+    background: linear-gradient(to right bottom, 
+    rgba(255, 204, 0, 0.09) 35%, /* 시작 색상 위치: 30% */
+    rgba(255, 255, 255, 1) 65% /* 종료 색상 위치: 70% */
+    );
+    border-radius: 180px 0 0 0;
+    /* background-color:#ffcc00 */
+    }
   .row4 {}
-  .row4 .row4_bg {
-    display: block;
+  .row4 .row4_bg2 {
+    /* display: block;
     background-color: #ffe063;
     opacity: .15;
     filter: blur(12px);
@@ -435,7 +445,8 @@ header nav .gnb li:hover {
     transform: translate(-50%,-50%);
     width: 1200px;
     aspect-ratio: 1/1;
-    border-radius: 50%;
+    border-radius: 50%; */
+
   }
   .row4 h3 {
     text-align: end;
