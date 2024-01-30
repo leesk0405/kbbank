@@ -524,6 +524,9 @@ h3::before {
     font-weight: 500;
     /* transition: transform 1.4s ease-in-out; */
 }
+.row5 .con>div span {
+    display: none;
+}
 .row5 .con>div a {
     display: block;
     width: 100%;
