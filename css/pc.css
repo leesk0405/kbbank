@@ -250,7 +250,7 @@ header nav .gnb li:hover {
     color: #60584c;
   }
   .row1 span {
-    white-space: nowrap;  
+    /* white-space: nowrap;   */
     font-size: 32px;
     font-weight: 500;
     color: #60584c;
