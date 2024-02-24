@@ -1072,22 +1072,16 @@ footer .copy {
 }
 .qucik_menu .inner {
     width: 100%;
-    height: 64px;
+    height: 100%;
     display: flex;
     justify-content: space-around;
-    /* align-items: center;    */
+    align-items: center;
 }
 
 .qucik_menu .inner li {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* flex-grow: 1; */
-    /* padding: 5px; */
     border-bottom: 3px solid #00000000;
     height: 100%;
-    align-self: center;
+    /* flex: 1; */
     box-sizing: border-box;
 
 }
@@ -1096,6 +1090,8 @@ footer .copy {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 100%;
   /* background-color: #777; */
 }
 .qucik_menu .inner li.active  {
@@ -1110,7 +1106,7 @@ footer .copy {
   color: #666;
 } 
 .qucik_menu .inner li a img {
-  width: 56%;
+  width: 50%;
   filter: grayscale(100);
   opacity: 0.4;
 
