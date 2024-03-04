@@ -944,7 +944,7 @@ header nav .gnb li:hover {
   footer .fIneer {
     display: none;
   }
-  footer .copy {
+ .copy {
     display: block;
   }
   footer .wrap {
