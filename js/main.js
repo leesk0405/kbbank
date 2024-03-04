@@ -143,14 +143,14 @@ $(function () {
   const show = $('.row9').offset().top;
   $(window).scroll(function(){
     let src = $(this).scrollTop();
-    let scr2 = $(this).scrollTop() -300;
+    let scr2 = $(this).scrollTop() -400;
     let view =  $(window).innerWidth();
-    if(src2 >= show && view > 1200 ){
+    if(scr2 >= show && view > 1200 ){
       $(' .row10_bg').addClass('expand');
       $('.row10 .circle').css({'background':'#fff'});
       $('.row10 .row10_bg .circle').addClass('active')
       console.log('add');
-    }else if(src2 < show && view > 1200 ){ 
+    }else if(scr2 < show && view > 1200 ){ 
       $(' .row10_bg').removeClass('expand');
       $('.row10 .circle').css({'background':'#ffcc00'});
       $('.row10 .row10_bg .circle').removeClass('active')
