@@ -779,15 +779,14 @@ header nav .gnb li:hover {
       margin-bottom: 16px;
   }
   .row8 .container .con-slide .swiper-wrapper .con .item .txt li{
-    
-      background-color: #fff;
-      border: #f2f2f2;
       color: #60584c;
       padding: 16px;
       border-radius: 12px;
       box-shadow: 4px 4px 4px rgba(0,0,0,.08);
       font-size: 20px;
       margin-bottom: 42px;   
+      display: flex;
+      justify-content: space-between;
   }
   
   .row8 .container .con-slide .swiper-wrapper .con {

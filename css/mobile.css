@@ -1,3 +1,6 @@
+html {
+    font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
 
 header{
     width: 100%;
@@ -820,7 +823,6 @@ h3::before {
     box-shadow: 4px 4px 4px rgba(0,0,0,.08);
     display: flex;
     justify-content: space-between;
-    color: #60584c;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
