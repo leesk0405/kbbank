@@ -111,6 +111,12 @@ $(function () {
         prevEl: ".myPrev",
       },
   });
+  $('.row7 .con-slide').mouseover(function(){
+    swiper.autoplay.pause();
+  });
+  $('.row7 .con-slide').mouseout(function(){
+    swiper.autoplay.resume();
+  });
 
   let swiper2 = new Swiper(".row8 .con-slide", {
     slidesPerView: 1,
@@ -128,6 +134,12 @@ $(function () {
         nextEl: ".myNext2",
         prevEl: ".myPrev2",
       },
+  });
+  $('.row8 .con-slide').mouseover(function(){
+    swiper2.autoplay.pause();
+  });
+  $('.row8 .con-slide').mouseout(function(){
+    swiper2.autoplay.resume();
   });
 
 
